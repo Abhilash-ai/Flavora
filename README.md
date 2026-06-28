@@ -1,4 +1,5 @@
 # 👨‍🍳 Flavora (Rasoi AI)
+https://flavorarasoiai.vercel.app
 
 ![Flavora Hero](public/logo.png)
 
