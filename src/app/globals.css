@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFFDD0; /* Cream */
+  --foreground: #3E2723; /* Dark Brown */
 }
 
 @theme inline {
@@ -10,12 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Brand Colors */
+  --color-saffron: #F4C430;
+  --color-warm-orange: #FF8C00;
+  --color-cream: #FFFDD0;
+  --color-terracotta: #E2725B;
+  --color-soft-gold: #F5DEB3;
+  --color-dark-brown: #3E2723;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1A1210; /* Very dark terracotta/brown base */
+    --foreground: #FFFDD0; /* Cream text */
   }
 }
 
