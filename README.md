@@ -3,6 +3,21 @@
 ![Flavora Hero](public/logo.png)
 
 **Flavora (Rasoi AI)** is a next-generation AI-powered premium kitchen assistant built to revolutionize your cooking experience. By leveraging the power of Google's Gemini AI and dynamic image generation, Flavora provides authentic, culturally rich, and incredibly accurate recipes based on what you crave or what ingredients you have in your fridge.
+## 🎯 Why We Built This
+
+Have you ever looked into your fridge, seen a random assortment of ingredients, and thought, *"What on earth can I make with this?"* Or maybe you were craving a specific traditional dish but didn't want to sift through ad-heavy food blogs with endless life stories just to find the actual recipe.
+
+We built **Flavora** to solve these exact problems. Cooking should be an art, not a chore. We wanted to create an ad-free, hyper-personalized, culturally authentic AI chef that brings the magic back into the kitchen. Whether you are trying to prevent food waste (Pantry Mode) or trying to recreate your grandmother's authentic Dal Makhani (Dish Mode), Flavora is your personal Master Chef.
+
+## 📖 How to Use
+
+1. **Sign up / Login:** Create a quick account so Flavora can remember your dietary preferences and save your favorite recipes.
+2. **Choose Your Mode:** 
+   - **By Ingredients:** Type in whatever you have in your fridge (e.g., "tomatoes, eggs, onions, old bread").
+   - **By Dish Name:** Type exactly what you are craving (e.g., "Authentic Paneer Tikka Masala").
+3. **Set Preferences:** Select how much time you have, your cooking skill level, and your dietary restrictions.
+4. **Generate & Cook:** Hit generate! In seconds, you'll receive a stunning AI photo of your dish, precise measurements, and step-by-step instructions woven with warm, cultural terminology.
+5. **Save:** Don't lose your masterpiece. Click the "Save to Favorites" button to add it to your personal digital cookbook.
 
 ## ✨ Features
 
