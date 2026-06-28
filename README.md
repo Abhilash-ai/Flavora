@@ -92,3 +92,4 @@ Since Flavora already uses Firebase for Authentication and Firestore, the easies
 ---
 
 *Built with ❤️ and AI.*
+# Flavora
