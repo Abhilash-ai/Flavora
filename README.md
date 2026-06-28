@@ -67,12 +67,27 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🌍 Deployment (Vercel)
+## 🌍 Deployment (Firebase Hosting)
 
-The easiest way to deploy this Next.js app is to use [Vercel](https://vercel.com/):
-1. Connect your GitHub repository to Vercel.
-2. In the Vercel dashboard, add all the environment variables from your `.env.local` file.
-3. Click **Deploy**. Vercel will automatically build and host the application!
+Since Flavora already uses Firebase for Authentication and Firestore, the easiest way to deploy this Next.js app is using **Firebase Hosting**, which fully supports Next.js.
+
+1. **Install Firebase CLI:**
+   ```bash
+   npm install -g firebase-tools
+   ```
+2. **Login to Firebase:**
+   ```bash
+   firebase login
+   ```
+3. **Initialize Firebase in your project:**
+   ```bash
+   firebase init hosting
+   ```
+   *Select your existing Flavora project. When asked if you want to use a web framework, select **Yes** (it will auto-detect Next.js).*
+4. **Deploy:**
+   ```bash
+   firebase deploy --only hosting
+   ```
 
 ---
 
