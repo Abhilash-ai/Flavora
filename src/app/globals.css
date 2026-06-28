@@ -20,12 +20,7 @@
   --color-dark-brown: #3E2723;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1A1210; /* Very dark terracotta/brown base */
-    --foreground: #FFFDD0; /* Cream text */
-  }
-}
+
 
 body {
   background: var(--background);
