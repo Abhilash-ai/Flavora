@@ -2,7 +2,7 @@
 
 ![Flavora Hero](public/logo.png)
 
-🚀 **[Experience Flavora Live!](https://YOUR_APP_NAME.firebaseapp.com)** *(Replace with your actual deployed link)*
+🚀 **[Experience Flavora Live!](https://flavora-ai.vercel.app)**
 
 **Flavora (Rasoi AI)** is a next-generation AI-powered premium kitchen assistant built to revolutionize your cooking experience. By leveraging the power of Google's Gemini AI and dynamic image generation, Flavora provides authentic, culturally rich, and incredibly accurate recipes based on what you crave or what ingredients you have in your fridge.
 ## 🎯 Why We Built This
@@ -69,27 +69,12 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🌍 Deployment (Firebase Hosting)
+## 🌍 Deployment (Vercel)
 
-Since Flavora already uses Firebase for Authentication and Firestore, the easiest way to deploy this Next.js app is using **Firebase Hosting**, which fully supports Next.js.
-
-1. **Install Firebase CLI:**
-   ```bash
-   npm install -g firebase-tools
-   ```
-2. **Login to Firebase:**
-   ```bash
-   firebase login
-   ```
-3. **Initialize Firebase in your project:**
-   ```bash
-   firebase init hosting
-   ```
-   *Select your existing Flavora project. When asked if you want to use a web framework, select **Yes** (it will auto-detect Next.js).*
-4. **Deploy:**
-   ```bash
-   firebase deploy --only hosting
-   ```
+The easiest way to deploy this Next.js app is to use [Vercel](https://vercel.com/):
+1. Connect your GitHub repository to Vercel via the Vercel Dashboard.
+2. Add all the environment variables from your `.env.local` file in the Vercel project settings.
+3. Click **Deploy**. Vercel will automatically build and host the application!
 
 ---
 
