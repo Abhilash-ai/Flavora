@@ -65,18 +65,6 @@ export default function Home() {
       {/* 3D Background */}
       <ThreeBackground />
 
-      {/* Navigation */}
-      <nav className="absolute top-0 w-full p-6 sm:p-8 flex justify-between items-center z-20">
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Flavora Logo" className="w-10 h-10 object-contain drop-shadow-md" />
-          <span className="text-xl font-extrabold tracking-tight">Flavora</span>
-        </div>
-        <Link href="/login">
-          <button className="px-6 py-2.5 bg-white/40 backdrop-blur-md border border-white/60 rounded-full font-bold hover:bg-white transition-all shadow-sm">
-            Sign In
-          </button>
-        </Link>
-      </nav>
 
       {/* Hero Section */}
       <main ref={heroRef} className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
@@ -157,11 +145,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="relative z-10 py-8 text-center text-foreground/50 text-sm border-t border-saffron/20 bg-white/40 backdrop-blur-md">
-        <p>© {new Date().getFullYear()} Flavora. Your AI Kitchen Companion.</p>
-      </footer>
     </div>
   );
 }
