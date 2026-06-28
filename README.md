@@ -2,7 +2,7 @@
 
 ![Flavora Hero](public/logo.png)
 
-🚀 **[Experience Flavora Live!](https://flavora-ai.vercel.app)**
+🚀 **[Experience Flavora Live!](https://flavorarasoiai.vercel.app)**
 
 **Flavora (Rasoi AI)** is a next-generation AI-powered premium kitchen assistant built to revolutionize your cooking experience. By leveraging the power of Google's Gemini AI and dynamic image generation, Flavora provides authentic, culturally rich, and incredibly accurate recipes based on what you crave or what ingredients you have in your fridge.
 ## 🎯 Why We Built This
